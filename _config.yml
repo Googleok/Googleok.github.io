@@ -44,18 +44,18 @@ nav:
     # - { Categories All: '/blog/categories/' }
     - { TIL (Today I Learned): '/blog/categories/#til' }
     - { 컴퓨터공학 : '/blog/categories/#컴퓨터공학' }
-    - { Spring: '/blog/categories/#spring' }
-    - { Java: '/blog/categories/#java' }
+    - { spring: '/blog/categories/#spring' }
+    - { java: '/blog/categories/#java' }
     - { Django: '/blog/categories/#django' }
-    - { Python: '/blog/categories/#python' }
-    - { Javascript: '/blog/categories/#javascript' }
-    - { Nodejs: '/blog/categories/#nodejs' }
+    - { python: '/blog/categories/#python' }
+    - { javascript: '/blog/categories/#javascript' }
+    - { nodejs: '/blog/categories/#nodejs' }
     - { MySQL: '/blog/categories/#MySQL' }
     - { PostgreSQL: '/blog/categories/#PostgreSQL' }
     - { 알고리즘 문제풀이: '/blog/categories/#알고리즘-문제풀이' }
-    - { Git: '/blog/categories/#git' }
+    - { git: '/blog/categories/#git' }
     - { Linux: '/blog/categories/#Linux' }
-    - { Etc: '/blog/categories/#etc' }
+    - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
   About:
     - '/about/'
