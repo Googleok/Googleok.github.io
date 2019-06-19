@@ -1,9 +1,9 @@
 # Site Info
-title: '초보몽키의 개발공부로그'
-tagline: '초보몽키의 개발공부로그'
+title: '구글럭의 개발공부로그'
+tagline: '구글럭의 개발공부로그'
 description: '프로그래밍을 공부하며 배운점 느낀점을 기록하는 곳입니다.'
 baseurl: ""
-url: https://wayhome25.github.io
+url: https://googleok.github.io
 logo: '/public/logo.png'
 
 # Site configurations
@@ -24,15 +24,16 @@ version: 1.0.0
 
 # About/contact
 author:
-  name: LEE HYUNJOO
-  description: 초보몽키(LEE HYUNJOO)
+  name: PARK JONGEOK
+  description: 구글럭(PARK JONGEOK)
   contact:
     # linkedin:  https://www.linkedin.com/in/lizhihao
-    github:    https://github.com/wayhome25
-    facebook:  https://www.facebook.com/wayhome25
+    github:    https://github.com/googleok
+    facebook:  https://www.facebook.com/profile.php?id=100003521646301
+    instagram: https://www.instagram.com/eok_1oooooooo/
     # twitter:   https://twitter.com/Li_Zhihao
     # weibo:     http://weibo.com/41173780
-    email:    mailto:siwabada@gmail.com
+    email:    mailto:qkrwhddjr3@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
@@ -43,14 +44,17 @@ nav:
     # - { Categories All: '/blog/categories/' }
     - { TIL (Today I Learned): '/blog/categories/#til' }
     - { 컴퓨터공학 : '/blog/categories/#컴퓨터공학' }
+    - { spring: '/blog/categories/#spring' }
+    - { java: '/blog/categories/#java' }
     - { Django: '/blog/categories/#django' }
     - { python: '/blog/categories/#python' }
     - { javascript: '/blog/categories/#javascript' }
     - { nodejs: '/blog/categories/#nodejs' }
     - { MySQL: '/blog/categories/#MySQL' }
+    - { PostgreSQL: '/blog/categories/#PostgreSQL' }
     - { 알고리즘 문제풀이: '/blog/categories/#알고리즘-문제풀이' }
     - { git: '/blog/categories/#git' }
-    - { firebase: '/blog/categories/#firebase' }
+    - { git: '/blog/categories/#Linux' }
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
   About:
