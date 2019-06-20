@@ -58,10 +58,7 @@ s.setAttribute('data-timestamp', +new Date());
 </div>
 
 <script type="text/javascript">
-  var $except = $('#container_title')
-  var $except2 = $('#container_content')
-
-  $('#wrap_all').not($except).css({
+​  $("#container_content").siblings().css({
     'background-color' : 'red'
   })
 </script>
