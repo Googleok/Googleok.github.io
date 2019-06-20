@@ -1,7 +1,7 @@
 # Site Info
-title: '구글럭의 개발공부로그'
-tagline: '구글럭의 개발공부로그'
-description: '프로그래밍을 공부하며 배운점 느낀점을 기록하는 곳입니다.'
+title: 'Googleok's Devops'
+tagline: 'Googleok's Devops'
+description: '구글러를 꿈꾸며 프로그래밍을 공부하며 배운점 느낀점을 기록하는 곳입니다.'
 baseurl: ""
 url: https://googleok.github.io
 logo: '/public/logo.png'
