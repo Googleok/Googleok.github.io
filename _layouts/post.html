@@ -56,3 +56,12 @@ s.setAttribute('data-timestamp', +new Date());
     {% endfor %}
   </ul>
 </div>
+
+<script type="text/javascript">
+  var $except = $('#container_title')
+  var $except2 = $('#container_content')
+
+  $('#wrap_all').not($except).css({
+    'background-color' : 'red'
+  })
+</script>
