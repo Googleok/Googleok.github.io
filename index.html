@@ -30,7 +30,7 @@ title: Home
         vertical-align : -webkit-baseline-middle;
       }
       </style>
-	  
+
 	  <!-- eok's css -->
 	  <style type="text/css">
 		@font-face {
@@ -44,7 +44,7 @@ title: Home
 			background-color: #211D26;
 			align-items: center;
 		}
-		
+
 		#blog2-title{
 			font-family:'Compressa VF';
 			text-rendering: optimizeSpeed;
@@ -54,6 +54,7 @@ title: Home
 			line-height: 0.8em;
 			margin: 0 auto;
 			text-transform: uppercase;
+      font-size: 30px;
 			font-weight: 100;
 			text-align: center;
 			width: 100vw;
@@ -121,7 +122,7 @@ title: Home
         {% endfor %}
       </div>
     </div>
-  
+
   <!-- 카테고리 글 숨김, 표시 전환 코드 -->
   <script type="text/javascript">
 
@@ -147,18 +148,18 @@ title: Home
 	      x: window.innerWidth,
 	      y: window.innerHeight
 	  };
-	
+
 	  Math.dist = function(a, b) {
 	      var dx = b.x - a.x;
 	      var dy = b.y - a.y;
 	      return Math.sqrt(Math.pow(dx, 2), Math.pow(dy, 2));
 	  }
-	
+
 	  window.addEventListener("mousemove", function(e) {
 	      cursor.x = e.clientX;
 	      cursor.y = e.clientY;
 	  });
-	
+
 	  window.addEventListener("touchmove", function(e) {
 	      var t = e.touches[0];
 	      cursor.x = t.clientX;
@@ -166,7 +167,7 @@ title: Home
 	  }, {
 	      passive: false
 	  });
-	
+
 	  var Char = function(container, char) {
 	      var span = document.createElement("span");
 	      span.setAttribute('data-char', char);
@@ -199,7 +200,7 @@ title: Home
 	      }
 	      return this;
 	  }
-	
+
 	  var VFont = function() {
 	      this.scale = false;
 	      this.flex = true;
@@ -209,7 +210,7 @@ title: Home
 	      this.weight = true;
 	      this.italic = true;
 	      var title, str, chars = [];
-	
+
 	      this.init = function() {
 	          title = document.getElementById("blog-title");
 	          str = title.innerText;
@@ -221,14 +222,14 @@ title: Home
 	          this.set();
 	          window.addEventListener("resize", this.setSize.bind(this));
 	      }
-	
+
 	      this.set = function() {
 	          title.className = "";
 	          title.className += this.flex ? " flex" : "";
 	          title.className += this.stroke ? " stroke" : "";
 	          this.setSize();
 	      }
-	
+
 	      this.setSize = function() {
 	          var fontSize = window.innerWidth / (str.length / 2);
 	          title.style = "font-size: " + fontSize + "px;";
@@ -238,14 +239,14 @@ title: Home
 	              title.style = "font-size: " + fontSize + "px; transform: scale(1," + scaleY + "); line-height: " + lineHeight + "em;"
 	          }
 	      }
-	
+
 	      this.animate = function() {
 	          mouse.x += (cursor.x - mouse.x) / 30;
 	          mouse.y += (cursor.y - mouse.y) / 30;
 	          requestAnimationFrame(this.animate.bind(this));
 	          this.render();
 	      }
-	
+
 	      this.render = function() {
 	          maxDist = title.getBoundingClientRect().width / 2;
 	          for (var i = 0; i < chars.length; i++) {
@@ -261,7 +262,7 @@ title: Home
 	      this.animate();
 	      return this;
 	  }
-	
+
 	  var txt = new VFont();
 	  var gui = new dat.GUI();
 	  gui.add(txt, 'flex').onChange(txt.set.bind(txt));
