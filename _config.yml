@@ -61,6 +61,8 @@ nav:
     - '/about/'
   Search:
     - '/search/'
+  Reference:
+    - '/reference/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
