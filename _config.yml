@@ -48,6 +48,7 @@ nav:
     - { java: '/#java' }
     - { Django: '/#django' }
     - { python: '/#python' }
+    - { html&css&js: '/#html&css&js' }
     - { javascript: '/#javascript' }
     - { nodejs: '/#nodejs' }
     - { MySQL: '/#MySQL' }
