@@ -43,8 +43,6 @@ nav:
     - '/'
     # - { Categories All: '/blog/categories/' }
     - { TIL (Today I Learned): '/#til' }
-    - { 컴퓨터공학 : '/#컴퓨터공학' }
-    - { spring: '/#spring' }
     - { java: '/#java' }
     - { Django: '/#django' }
     - { python: '/#python' }
