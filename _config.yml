@@ -44,6 +44,7 @@ nav:
     # - { Categories All: '/blog/categories/' }
     - { TIL (Today I Learned): '/#til' }
     - { java: '/#java' }
+    - { spring: '/#spring' }
     - { Django: '/#django' }
     - { python: '/#python' }
     - { html&css&js: '/#html&css&js' }
